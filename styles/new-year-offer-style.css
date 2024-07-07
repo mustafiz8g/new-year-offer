@@ -1,0 +1,232 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* common shared style  */
+ .primary-color{
+   color: rgb(255, 0, 0);
+ }
+
+/* banner style  */
+.banner{
+    max-width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
+    margin: 0 auto;
+ 
+}
+.banner-content{
+    padding:177px ;
+}
+
+.banner-title{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    /* line-height: 95px; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+.banner-subtitle{
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    /* line-height: 40px; */
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* margin-top: 17px; */
+}
+
+/* discount section style  */
+.discount{
+   margin-top: 120px;
+   margin-bottom: 120px;
+}
+.discount-title{
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+
+}
+.discount-description{
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.discount-category{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(7, 2, 17);
+    margin-bottom: 48px;
+}
+.discount .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .discount img{
+    border:3px dashed rgba(45, 115, 227, 0.733);
+ }
+
+ /* well comming section  */
+  .welcoming{
+    max-width: 1320px;
+    height: 600px;
+    background-image:linear-gradient(80deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Vectorrr.png");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom:120px ;
+  }
+ .welcoming-content{
+    width: 70%;
+    padding: 126px;
+ }
+  .welcoming-title{
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .welcoming-description{
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.8);
+  }
+  .welcoming button{
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: left;
+      text-transform: uppercase;
+      color: rgb(255, 255, 255);
+      background-color: transparent;
+      margin-top: 48px;
+      border: none;
+      margin-left: 50px;
+  }
+   .welcoming button:hover{
+      border: 3px solid red;
+      padding: 9px 17px;
+      border-radius: 5px;
+   }
+  .img-container{
+    width: 30%;
+  }
+  .welcoming .img-container{
+    margin-right:130px ;
+  }
+  .welcoming img{
+    border: 3px dashed #fff ;
+  }
+
+
+  /* place- time section  */
+
+  .place-time-content{
+     max-width:1320px;
+      height: 420px;
+      margin: 0 auto;
+      background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+      border-radius: 16px;
+      padding-top: 120px;
+      margin-bottom: 100px;
+    }
+  .place-time{
+      font-size: 32px;
+      font-weight: 600;
+      text-align: center;
+      font-family: Inter;
+      color: rgb(7, 2, 17);
+      margin-bottom:20px;
+  }
+
+
+  /* comming soon section  */
+
+    .coming-soon-container{
+        max-width: 1320px;
+        height: 463px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        gap: 80px;
+    }   
+
+    .coming-soon-container1{
+        width: 35%;
+    }
+    .coming-subtitle{
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+        color: rgb(255, 0, 0);
+    }
+    .coming-title{
+        font-family: Merriweather;
+        font-size: 48px;
+        font-weight: 900;
+        color: rgb(7, 2, 17);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .coming-description{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(7, 2, 17, 0.6);
+    }
+    .coming-soon-container2{
+      width: 35%;
+    }
+    .coming-soon-container2 img{
+        border:3px dashed rgba(194, 195, 195, 0.733);
+        border:15px solid #ff0000 ;
+        box-sizing: border-box;
+        padding: 35px;
+        border-radius:50%  ;
+    } 
+    .coming-soon-container3{
+      width: 30%;
+    }
+
+    .coming-year{
+        color: #ff0000;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+    }
+     .coming-description2{
+        margin-top: 15px;
+        margin-bottom: 45px;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        color: rgba(7, 2, 17, 0.6);
+     }
+    .happy-new-img img{
+        border:3px dashed rgba(93, 112, 142, 0.733);
+        
+    }
+    
