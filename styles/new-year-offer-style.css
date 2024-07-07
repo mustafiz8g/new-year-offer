@@ -158,8 +158,20 @@
       font-family: Inter;
       color: rgb(7, 2, 17);
       margin-bottom:20px;
+     
   }
+  .place-btn{
+     color: rgb(255, 255, 255);
+     font-family: Inter;
+     font-size: 20px;
+     font-weight: 700;
+     background: rgb(255, 0, 0);
+     border-radius: 8px;
+     border: none;
+     padding: 16px 32px 16px 32px;
+    margin-top: 48px;
 
+  }
 
   /* comming soon section  */
 
@@ -172,6 +184,8 @@
         align-items: center;
         text-align: left;
         gap: 80px;
+        margin-bottom: 120px;
+        
     }   
 
     .coming-soon-container1{
@@ -199,14 +213,14 @@
     }
     .coming-soon-container2{
       width: 35%;
+      padding: 35px;
+      border: 15px solid red;
+      border-radius: 50%;
     }
     .coming-soon-container2 img{
-        border:3px dashed rgba(194, 195, 195, 0.733);
-        border:15px solid #ff0000 ;
-        box-sizing: border-box;
-        padding: 35px;
-        border-radius:50%  ;
+        border:3px dashed#b8b7b7;
     } 
+  
     .coming-soon-container3{
       width: 30%;
     }
@@ -229,4 +243,82 @@
         border:3px dashed rgba(93, 112, 142, 0.733);
         
     }
+
+
+    /* section holy day  */
+
+    .holiday-container{
+       width: 1320px;
+        height: 986px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        /* border: 2px solid red; */
+        position: relative;
+
+
+    }
+    .holyday-text-container{
+        width: 1068px;
+        height: 260px;
+        margin: 0 auto;
+    }
+     .holyday-subtitle{
+        color: rgb(7, 2, 17);
+        font-family: Inter;
+        font-size: 29px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        text-align: center;
+     }
+     .holyday-title{
+        font-family: Merriweather;
+        color: rgb(7, 2, 17); 
+        font-size: 72px;
+        font-weight: 900;
+        text-align: center;
+     }
+    .holyday-paragraph{
+        color: rgba(7, 2, 17, 0.6);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 28px;
+        margin-bottom: 64px;
+    }
+
+    .solid-color{
+        width: 1320px;
+        height: 223px;
+        background-color: #ff0000;
+        position: absolute;
+        top: 77.5%;
+    }
     
+    .gift-box{
+        width: 674.82px;
+        height: 577.96px;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        gap: 176.2px;
+
+    }
+    .girl-container{
+        /* width: 450px;
+        height: 450px; */
+        position: relative;
+        top: 9.3%;
+    }
+    /* .girl-container img{
+        width: 100%;
+        height: 100%;
+    } */
+     .discount-img{
+       position: relative;
+       top: 19%;
+       right: 116%;
+     }
